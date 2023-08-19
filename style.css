@@ -481,3 +481,166 @@ img {
 }
 
 /* Work Area End  */
+
+/* Footer Area  */
+
+#footer-area {
+  background-color: #fff;
+  padding: 45px 0;
+}
+
+.inner-footer {
+  display: flow-root;
+}
+
+.child-footer {
+  padding: 1%;
+  margin: 0 1% 10px;
+  width: 21%;
+  float: left;
+}
+
+.child-footer h3 {
+  border-top: 1px solid #666666;
+  color: #666;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.child-footer p {
+  color: #666666;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.child-footer p a {
+  color: #d92b1f;
+  text-decoration: none;
+}
+
+.child-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.child-footer li {
+  background-image: url(img/next.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  display: block;
+  border-bottom: 1px solid #666666;
+  padding-left: 15px;
+}
+
+.child-footer li:last-child {
+  border-bottom: none;
+}
+
+.child-footer li a {
+  color: #666666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.child-footer li a:hover {
+  color: #d92b1f;
+}
+
+.child-footer h4 {
+  color: #666666;
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.child-footer h4 a {
+  color: #666666;
+  float: none;
+  text-decoration: none;
+}
+
+.child-footer h4 a:hover {
+  color: #d92b1f;
+}
+
+.child-footer h6 {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+
+.child-blog {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flow-root;
+}
+
+.child-blog a {
+  color: #d92b1f;
+  float: right;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.child-footer input {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 2%;
+  margin-bottom: 10px;
+  width: 96%;
+}
+
+.child-footer textarea {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 2%;
+  margin-bottom: 10px;
+  width: 96%;
+}
+
+.child-footer input[type="submit"] {
+  width: 80px;
+  color: #d92b1f;
+  cursor: pointer;
+}
+
+.child-footer input[type="submit"]:hover {
+  background-color: #d92b1f;
+  color: #fff;
+}
+
+/* Footer Area End */
+
+/*==========================
+Copy Right Area 
+===========================*/
+#copyright-area {
+  background-color: #f2f2f2;
+  padding: 20px 10px;
+}
+
+.inner-copyright {
+  display: flow-root;
+}
+
+.inner-copyright p {
+  margin: 0;
+  color: #919191;
+  font-size: 12px;
+}
+
+.left-copyright {
+  float: left;
+  width: 60%;
+}
+
+.right-copyright {
+  float: right;
+  width: 40%;
+  text-align: right;
+}
